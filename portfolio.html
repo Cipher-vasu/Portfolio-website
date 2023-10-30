@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Animated Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <h1>Vasu Gupta</h1>
+        <h2>Software Developer</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work_experience">Work Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about" class="content">
+        <h2>About Me</h2>
+        <p>My name is Vasu Gupta and I have completed my B.Tech in Information Technology with a spl. in Business Informatics from Indian Institute of Information Technology Allahabad in 2023.  I am a quick learner and have developed a strong set of skills. I am proficient in programming languages like Java, Python, C++, Ruby, Kotlin. I have worked using frameworks like Ruby on Rails and Micronaut. I have also worked in Microservices architecture. Apart from this I also have hands-on experience with PostgreSql, MySql, Git, Github etc and also have knowledge about Async API Calls using RabbitMQ.
+        </p>
+    </section>
+    <section id="work_experience" class="content">
+        <h2>Work Experiences</h2>
+        <div class="project">
+            <h3>SDE-1 Cogoport</h3>
+            <p style="margin-top: -15px;">July 2023 - October 2023</p>
+            <!-- <p>This project is a responsive e-commerce website I developed using HTML, CSS, and JavaScript. It includes features like product listings, a shopping cart, and a checkout process. Check it out!</p> -->
+            <p>As a Software Development Engineer (SDE-1) at Cogoport, I played a pivotal role in developing and maintaining various critical systems, primarily focused on financial and operational aspects of the company. Key responsibilities and accomplishments during my tenure included:</p>
+            <ul>
+                <li>Collaborated closely with the Business Finance Team to design, develop, and maintain the invoicing system of Cogoport. This system ensured accurate and timely invoicing for the company's services.</li>
+                <li>Created a Profitability dashboard that offered comprehensive insights into the financial performance of services provided by Cogoport. This tool enabled informed decision-making by providing a detailed overview of revenue and cost metrics.</li>
+                <li>Designed and implemented a security deposit and refund management system, enhancing cash flow visibility and streamlining payment processes. This system was instrumental in optimizing financial operations.</li>
+                <li>Developed the Shipment Audit Trail, a transparent tracking and review system for monitoring modifications made to shipments. This feature provided valuable insights into how changes during a shipment's lifecycle impacted its profitability and allowed for effective decision-making.</li>
+                <li>Made Dashboards in Metabase to visualize and montior the performance of the above features.</li>
+            </ul>
+            <p>TechStack:- Kotlin, Micronaut, Microservices, PostgreSQL</p>
+            <!-- <button class="modal-button" data-modal="modal1">Details</button> -->
+        </div>
+        <div class="project">
+            <h3>SDE-Intern Cogoport</h3>
+            <p style="margin-top: -15px;">January 2023 - July 2023</p>
+            <p>As a SDE-Intern,  I was responsible for the development and maintenance of critical features on an online platform that displayed sailing schedules and container tracking data. Some key responsibilities and achievements included:</p>
+            <ul>
+                <li>Developed and maintained features such as the integration of automated tracking email data and third-party APIs with rate limits to enhance the platform's functionality.</li>
+                <li>Designed and managed a suite of 30 web scrapers to collect data from shipping lines' websites, encompassing ship schedules (10 scrapers) and container tracking (20 scrapers). This initiative significantly reduced reliance on costly third-party data sources, resulting in a substantial cost reduction of approximately 50%.</li>
+                <li>Developed a data source configuration engine to retrieve ship schedules and container tracking data from specific sources based on the data request source.</li>
+                <li>Developed a feature to show the customer the real-time location of the vessel by using AIS data once the shipment is confirmed.</li>
+                <li>Given edit & delete feature for the milestones of the tracking data in the internal tool used by Cogoport.</li>
+                <li>Made Dashboards in Metabase to visualize and montior the performance of the scrapers and third-party api sources to retrieve the tracking data</li>
+            </ul>
+            <p>TechStack:- Ruby, Ruby on Rails, Python, PostgreSQL</p>
+            <!-- <button class="modal-button" data-modal="modal2">Details</button> -->
+        </div>
+    </section>
+    <section id="projects" class="content">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Brain Tumor Detection</h3>
+            <p>Developed an algorithm which will analyze the MRI images of brain. Convolutional neural networking model is used and this model helps in identifying whether the brain contains a tumor or not.</p>
+            <p>Technologies Used:- CNN, Keras, Tensorflow, Python</p>
+            <a class="modal-button" href="https://colab.research.google.com/drive/1IBy2NyfekGEpLWSEEIHvlw1jhH3DkQuK?usp=sharing">Google Colab</a>
+        </div>
+        <div class="project">
+            <h3>Energy Visualizer</h3>
+            <p>A web application that provides a better analysis of the energy consumption by organising data in a well structured manner and presenting it in the form of 3D bar graphs.</p>
+            <p>TechStack:- Node.js, MongoDB, HTML, CSS, JavaScript</p>
+            <a class="modal-button" href="https://github.com/sandy9808/Energy-visualizer">Github</a>
+        </div>
+        <div class="project">
+            <h3>Voting Management System</h3>
+            <p>This Voting Management System allow the users to nominate themselves for election. Non‐contestants can vote for the candidate and Admins can monitor the whole voting process.</p>
+            <p>TechStack:- PHP, MySQL, HTML, CSS, JavaScript</p>
+            <a class="modal-button" href="https://github.com/Cybertron-Avneesh/DBMS-Voting-System">Github</a>
+        </div>
+    </section>
+    <section id="contact" class="content">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach me at <a class="link" href="mailto:guptavasu260500@gmail.com">guptavasu260500@gmail.com</a> or connect me on <a href="https://www.linkedin.com/in/vasu-gupta-150276197/">LinkedIn</a> or follow me on <a href="https://github.com/Cipher-vasu">Github</a></p>
+    </section>
+
+    <!-- Modals for Project Details -->
+    <!-- <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close-button" data-modal="modal1">&times;</span>
+            <h2>Project 1</h2>
+            <p>This is a brief description of Project 1. You can provide more details about your project here.</p>
+            <img src="project1.jpg" alt="Project 1">
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close-button" data-modal="modal2">&times;</span>
+            <h2>Project 2</h2>
+            <p>This is a brief description of Project 2. You can provide more details about your project here.</p>
+            <img src="project2.jpg" alt="Project 2">
+        </div>
+    </div> -->
+
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    const modalButtons = document.querySelectorAll('.modal-button');
+
+    modalButtons.forEach(function (button) {
+        button.addEventListener('click', function () {
+            const modalId = button.getAttribute('data-modal');
+            const modal = document.getElementById(modalId);
+
+            if (modal) {
+                modal.style.display = 'block';
+
+                // Close modal when clicking the close button
+                const closeButtons = modal.getElementsByClassName('close-button');
+                if (closeButtons[0]) {
+                    closeButtons[0].addEventListener('click', function () {
+                        modal.style.display = 'none';
+                    });
+                }
+            }
+        });
+    });
+});
+    </script> -->
+
+</body>
+</html>
